@@ -13,5 +13,5 @@ end
 
 def assign_rooms(speakers)
   list = []
-  
+  speakers.each_with_index do 
 end
