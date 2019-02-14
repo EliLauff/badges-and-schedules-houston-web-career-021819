@@ -22,4 +22,10 @@ end
 def printer(speakers)
   badges = batch_badge_creator(speakers)
   rooms = assign_rooms(speakers)
+  counter = 0
+  while counter < speakers.length
+    puts badges[counter]
+    puts rooms[counter]
+    counter += 1
+  end
 end 
